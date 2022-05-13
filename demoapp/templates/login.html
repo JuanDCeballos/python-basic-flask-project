@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/style.css') }}"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="loginContainer" class="login-container">
+      <img
+        class="logo-img"
+        src="https://juandceballos.github.io/role-base-page/52a9134aef772ac89fd5.svg"
+      />
+      <div class="inputs-container">
+        <label>User</label
+        ><input type="text" class="user-input" id="input-user" /><label
+          >Password</label
+        ><input type="password" class="user-input" id="input-password" />
+      </div>
+      <button id="cta-login" class="cta cta-login">Login</button>
+      <a class="go-back" href="index">Go back</a>
+    </div>
+  </body>
+</html>

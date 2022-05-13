@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/style.css') }}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="homeContainer" class="home-container">
+      <div class="nav-container">
+        <img
+          class="logo-home"
+          src="https://juandceballos.github.io/role-base-page/52a9134aef772ac89fd5.svg"
+        />
+        <p class="nav-text"><a class="go-login" href="login">LOGIN</a></p>
+      </div>
+      <div class="main-container">
+        <img
+          class="main-home-image"
+          src="https://juandceballos.github.io/role-base-page/30f970328fa296377766.svg"
+        />
+        <div class="main-info">
+          <h1 class="title">INFORMACION PODEROSA SOBRE DE SU EQUIPO</h1>
+          <p class="desc">
+            Planificación de proyectos y seguimiento del tiempo para equipos
+            ágiles
+          </p>
+          <button id="cta-home" class="cta cta-home">
+            <a href="login">Login</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
